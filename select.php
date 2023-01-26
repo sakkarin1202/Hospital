@@ -40,7 +40,7 @@ $stmt->execute();
     </td>
 
     <td><?php echo $result["P_debt"]; ?></td>
-    <td><?php echo $result["P_UserName"]; ?></div></td>
+    <td><?php echo $result["P_Username"]; ?></div></td>
     
     
   </tr>

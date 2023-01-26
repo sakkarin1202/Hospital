@@ -15,7 +15,7 @@
     }
     require "connect.php";
     
-    $sql = "SELECT P_id,P_name,P_UserName 
+    $sql = "SELECT P_id,P_name,P_Username 
     FROM patient,permissions
      WHERE patient.P_id = permissions.P_CID 
      AND P_name='".$_GET["P_name"]."'";
@@ -40,7 +40,7 @@
 
   <tr>
     <th width="130">อีเมลล์</th>
-    <td><?php echo $result["P_UserName"]; ?></td>
+    <td><?php echo $result["P_Username"]; ?></td>
   </tr>
   
   
